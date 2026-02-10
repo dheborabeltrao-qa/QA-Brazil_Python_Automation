@@ -7,16 +7,16 @@ import time
 
 
 class UrbanRoutesPage:
-    # Preencher campo De e Para
+    # PREENCHER CAMPO "DE" E "PARA"
     from_field = (By.ID, 'from')
     to_field = (By.ID, 'to')
 
-    # Selecionar tarifa e chamar taxi
+    # SELECIONAR TARIFA E CHAMAR TAXI
     taxi_option_locator = (By.XPATH, '//button[contains(text(),"Chamar")]')
     comfort_icon_locator = (By.XPATH, '//img[@src="/static/media/kids.075fd8d4.svg"]')
     comfort_active = (By.XPATH, '//*[@id="root"]/div/div[3]/div[3]/div[2]/div[1]/div[5]')
 
-    # Número de telefone
+    # NÚMERO DE TELEFONE
     number_text_locator = (By.CSS_SELECTOR, '.np-button')
     number_enter = (By.ID, 'phone')
     number_confirm = (By.CSS_SELECTOR, '.button.full')
@@ -36,11 +36,11 @@ class UrbanRoutesPage:
     # ADICIONAR COMENTÁRIO
     add_comment_locator = (By.ID, 'comment')
 
-    # Pedir lençóis e cobertor
+    # PEDIR LENÇÓIS E COBERTOR
     switch_blanket_locator = (By.CSS_SELECTOR, '.switch')
     switch_blanket_active_locator = (By.CSS_SELECTOR, 'input.switch-input')
 
-    # Pedir sorvete
+    # PEDIR SORVETE
     add_icecream_locator = (By.CSS_SELECTOR, '.counter-plus')
     qnt_icecream_locator = (By.CSS_SELECTOR, '.counter-value')
 
