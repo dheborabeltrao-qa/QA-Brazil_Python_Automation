@@ -45,7 +45,7 @@ class TestUrbanRoutes:
         routes_page.enter_locations(data.ADDRESS_FROM, data.ADDRESS_TO)
         routes_page.click_taxi_option()
         routes_page.click_comfort_icon()
-        assert routes_page.click_comfort_active()
+        assert routes_page.is_comfort_active() is True
 
     def test_fill_phone_number(self):
         self.driver.get(data.URBAN_ROUTES_URL)

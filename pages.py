@@ -82,7 +82,7 @@ class UrbanRoutesPage:
         if "active" not in active.get_attribute("class"):
             self.driver.find_element(*self.comfort_icon_locator).click()
 
-    def click_comfort_active(self):
+    def is_comfort_active(self):
         try:
             active_button = WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located(self.comfort_active))
             return "active" in active_button.get_attribute('class')
@@ -110,11 +110,11 @@ class UrbanRoutesPage:
     def click_add_card(self, card, code):
         self.driver.find_element(*self.add_metodo_pagamento).click()
         self.driver.find_element(*self.add_card).click()
-        time.sleep(1)
+        WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located(self.number_card))
         self.driver.find_element(*self.number_card).send_keys(card)
         self.driver.find_element(*self.code_card).send_keys(code)
         self.driver.find_element(*self.code_card).send_keys(Keys.TAB)
-        time.sleep(0.5)
+        WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(self.add_finish_card))
         self.driver.find_element(*self.add_finish_card).click()
         self.driver.find_element(*self.close_button_card).click()
 
