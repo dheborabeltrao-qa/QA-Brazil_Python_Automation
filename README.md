@@ -1,15 +1,17 @@
-### Automação de Testes em Python
+Automação de Testes em Python
 
-Este repositório contém exercícios e práticas de automação desenvolvidos durante o bootcamp de QA. O objetivo é aplicar conceitos fundamentais de testes automatizados utilizando Python.
+Descrição do Projeto
+Este repositório reúne exercícios e práticas de automação de testes desenvolvidos durante o bootcamp de QA. O projeto tem como foco a aplicação de conceitos fundamentais de testes automatizados utilizando Python.
 
-Tecnologias utilizadas:
-* Python
-* Pytest
-* Requests
-* Git & GitHub
+Objetivo
+Consolidar conhecimentos em automação de testes, estruturação de projetos e validação de APIs, simulando cenários próximos à realidade do desenvolvimento de software.
 
-Conteúdo:
-* Estrutura básica de automação
-* Testes de API com Python
-* Boas práticas de organização de testes
-* Cenários simples e funcionais
+Meu papel / abordagem
+Desenvolvimento e execução de testes automatizados, com foco em testes de API e organização de testes seguindo boas práticas de qualidade de software.
+
+Tecnologias e ferramentas utilizadas
+
+Python
+Pytest
+Requests
+Git & GitHub
