@@ -2,12 +2,12 @@
 
 Este repositório contém exercícios e práticas de automação desenvolvidos durante o bootcamp de QA. O objetivo é aplicar conceitos fundamentais de testes automatizados utilizando Python.
 
-Tecnologias utilizadas
+Tecnologias utilizadas:
 * Python
 * Pytest
 * Requests
 * Git & GitHub
-Conteúdo
+Conteúdo:
 * Estrutura básica de automação
 * Testes de API com Python
 * Boas práticas de organização de testes
