@@ -7,6 +7,7 @@ Tecnologias utilizadas:
 * Pytest
 * Requests
 * Git & GitHub
+
 Conteúdo:
 * Estrutura básica de automação
 * Testes de API com Python
